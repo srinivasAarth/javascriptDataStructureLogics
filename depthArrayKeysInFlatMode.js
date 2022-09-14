@@ -18,3 +18,4 @@ const mapToKeys = ([key, value]) => {
 const keys = Object.entries(obj).map(mapToKeys);
 
 console.log(keys);
+// output [[test ,test12 ,test13, test131, test132,], [test2]]

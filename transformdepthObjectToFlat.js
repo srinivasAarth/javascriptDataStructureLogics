@@ -16,4 +16,13 @@ const func = (ar) => {
   const obj = { ...ar, temp };
   return obj;
 };
-console.log(func(items));
+console.log(func(items)); // output
+
+// {
+//   '0': { item_id: 1, stock_on_hand: 400 },
+//   '1': { item_id: 2, stock_on_hand: 150 },
+//   temp: [
+//             { id: 1, code: 'ITEM 1' },
+//             { id: 2, code: 'ITEM 2' }
+//           ]
+// }
