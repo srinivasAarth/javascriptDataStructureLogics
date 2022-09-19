@@ -6,7 +6,6 @@ const depthObject = {
 const getValues = (ob, tmp) => {
   for (x in ob) {
     if (typeof ob[x] === "object") {
-      //   console.log(x);
       getValues(ob[x], tmp);
     } else {
       tmp.push(ob[x]);
